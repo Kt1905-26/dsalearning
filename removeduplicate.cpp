@@ -22,4 +22,4 @@ int main(){
     }
     
 
-}
+} //you can also do this by using set data structure which will automatically remove the duplicate elements and also sort the elements in ascending order.
