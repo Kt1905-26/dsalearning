@@ -14,7 +14,7 @@ int main(){
     int high=n-1;
     while(mid<=high){
         if(v[mid]==0){
-            swap(v[low],v[mid])
+            swap(v[low],v[mid]);
             low++;
             mid++;
         }
