@@ -15,7 +15,7 @@ int main(){
         for(int j=i+1;j<n;j++){
             swap(mat[i][j],mat[j][i]);
 
-        }
+        }//we started the j for loop from i+1 becoz the diagonal elemets will not be swapped.
     }
     for (int i = 0; i < n; i++) {
         for (int j = 0; j < n; j++) {
